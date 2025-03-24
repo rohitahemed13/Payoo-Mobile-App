@@ -17,7 +17,7 @@ document.getElementById('add-money').addEventListener("click", function (event) 
             const container = document.getElementById('transection-container');
             const p =document.createElement('p');
             p.innerText = `
-            added ${amount} from ${sum} account. 
+            added ${amount} from ${sum} account 
             
             `
             container.appendChild(p).style.backgroundColor = 'blue';

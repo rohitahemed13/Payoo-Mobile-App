@@ -8,7 +8,7 @@ document
     convertedAmount = parseFloat(amount);
     const mainBalance = document.getElementById("main-balance").innerText;
     const convertedMainBalance = parseFloat(mainBalance);
-    if (convertedPin === 2413) {s
+    if (convertedPin === 2413) {
       const sum = convertedMainBalance - convertedAmount;
       document.getElementById("main-balance").innerText = sum;
 
@@ -16,7 +16,7 @@ document
       const container = document.getElementById('transection-container');
       const p =document.createElement('p');
       p.innerText = `
-      cashout ${amount} from this ${sum} account.
+      cashout ${amount} from this ${sum} account ;
       `
       container.appendChild(p).style.backgroundColor = 'blue';
       container.appendChild(p).style.padding = '5px';
