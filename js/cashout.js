@@ -16,7 +16,7 @@ document
       const container = document.getElementById('transection-container');
       const p =document.createElement('p');
       p.innerText = `
-      cashout ${amount} from this ${sum} account ;
+      cashout ${amount} from this ${sum} account 
       `
       container.appendChild(p).style.backgroundColor = 'blue';
       container.appendChild(p).style.padding = '5px';
